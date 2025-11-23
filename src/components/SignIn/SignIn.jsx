@@ -124,7 +124,7 @@ const SignIn = ({inUp,setInUp}) => {
                   <small className="text-body-secondary">
                     Not on YummyBento yet?
                     <a className="cursor-pointer" onClick={() => {setInUp('signUp');setData({name:'',email:'',password:''})}}>
-                      <b> Sign up</b>
+                      <b className='cursor-pointer'> Sign up</b>
                     </a>
                   </small>
                 </p>
